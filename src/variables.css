@@ -1,0 +1,8 @@
+:root {
+  --bg-primary: rgb(18, 18, 24);
+  --bg-paper: rgb(36, 36, 48);
+  --bg-border: rgb(68, 68, 85);
+  --primary: rgb(65, 105, 225);
+  --primary-hover: rgb(95, 135, 235);
+  --primary-active: rgb(125, 165, 245);
+}

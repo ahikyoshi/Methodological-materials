@@ -1,0 +1,23 @@
+* {
+  color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: var(--bg-primary);
+}
+.page-title {
+  width: 1080px;
+  margin: 25px auto;
+  padding: 16px;
+  border-radius: 12px;
+  background-color: var(--bg-paper);
+  text-align: center;
+}
+main {
+  width: 1080px;
+  padding: 16px;
+  margin: 25px auto;
+  background-color: var(--bg-paper);
+  border-radius: 12px;
+  background-color: var(--bg-paper);
+}
