@@ -1,0 +1,38 @@
+#color_ex {
+  background: -webkit-linear-gradient(#ff4242, #4b4eff, #26ff38);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 38px;
+}
+#bg_ex {
+  background-color: red;
+}
+#border_ex1 {
+  border: 2px solid silver;
+}
+#border_ex2 {
+  border: 2px dotted silver;
+}
+#border_ex3 {
+  border: 4px double silver;
+}
+#radius_ex1 {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  border: 4px double silver;
+  border-radius: 8px;
+}
+#radius_ex2 {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  border: 4px double silver;
+  border-radius: 100%;
+}
+#grad_ex {
+  background: #cfe72a;
+  background: linear-gradient(0deg, #cfe72a, #e00e8f);
+}
