@@ -1,6 +1,15 @@
 .subjects-main {
-  display: grid;
-  grid-template-columns: repeat(4, 252px);
-  gap: 13.33px;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px;
+}
+@media (min-width: 1080px) {
+	.subjects-main {
+		display: grid;
+		grid-template-columns: repeat(4, 252px);
+		gap: 13.33px;
+		justify-content: center;
+	}
 }

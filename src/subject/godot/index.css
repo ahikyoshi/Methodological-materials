@@ -1,47 +1,56 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 main {
-  display: grid;
-  grid-template-columns: repeat(4, 252px);
-  gap: 13.33px;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px;
+}
+@media (min-width: 1080px) {
+	main {
+		display: grid;
+		grid-template-columns: repeat(4, 252px);
+		gap: 13.33px;
+		justify-content: center;
+	}
 }
 /* Method Pages */
 .method-body {
-  width: 100vw;
-  min-height: 100vh;
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(1, 0, 37);
+	width: 100vw;
+	min-height: 100vh;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(1, 0, 37);
 }
 .method-main {
-  width: 1080px;
-  padding: 16px;
-  margin: 25px auto;
-  background-color: rgb(58, 58, 58);
-  border-radius: 12px;
-  background-color: rgb(58, 58, 58);
+	width: 1080px;
+	padding: 16px;
+	margin: 25px auto;
+	background-color: rgb(58, 58, 58);
+	border-radius: 12px;
+	background-color: rgb(58, 58, 58);
 }
 
 .method-body img {
-  border-radius: 12px;
+	border-radius: 12px;
 }
 .method-body button {
-  padding: 8px 12px;
-  background-color: rgb(36, 36, 36);
-  border-radius: 8px;
-  border: none;
+	padding: 8px 12px;
+	background-color: rgb(36, 36, 36);
+	border-radius: 8px;
+	border: none;
 }
 .method-body li {
-  margin-top: 4px;
+	margin-top: 4px;
 }
 #hide {
-  background: whitesmoke;
+	background: whitesmoke;
 }
 #hide:hover {
-  background: none;
+	background: none;
 }
